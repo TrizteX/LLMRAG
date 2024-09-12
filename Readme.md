@@ -1,10 +1,11 @@
 # Offline FAQ/Reasoning Chatbot with RAG
 
-Create a RAG from any data source (docx, txt, etc) and use it as a FAQ chatbot without answering out of context answer and streaming
+Create a RAG from any data source (docx, txt, etc) and use it as a FAQ chatbot without answering out of context answer and streaming. 
+Please keep in mind that the default data source is docx, in order to ingest from a different source please look into create_data.py.
 
 ## Description
 
-Provide documents, get answers.
+Provide documents, get answers. The prompt has been formatted to answer like a chatbot on a company website specifically.
 
 ## Getting Started
 
@@ -25,5 +26,5 @@ python create_data.py
 
 * Second run query.py (It takes string in command line argument as input)
 ```
-python query.py "What is Love"
+python query.py "What is your product"
 ```
